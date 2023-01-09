@@ -1,0 +1,15 @@
+function Round(n)
+	return math.floor(n + 0.5)
+end
+
+function RoundDecimal1(n)
+	return math.floor(n * 10) / 10
+end
+
+function RoundDecimal2(n)
+	return math.floor(n * 100) / 100
+end
+
+function RoundDecimal3(n)
+	return math.floor(n * 1000) / 1000
+end
